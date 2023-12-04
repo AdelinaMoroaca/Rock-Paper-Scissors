@@ -65,9 +65,6 @@ function game() {
     console.log(playRound(getPlayerChoice(), getComputerChoice()));
     console.log(playRound(getPlayerChoice(), getComputerChoice()));
     console.log(playRound(getPlayerChoice(), getComputerChoice()));
-   
-    // alert('playerWins', playerWins);
-    // alert('computerWins', computerWins);
 
     // Compare playerWins vs computerWins
     if (playerWins > computerWins){
@@ -83,7 +80,3 @@ function game() {
 }
 
 game();
-
-//ls how to write sum
-//sum=sum+1
-
